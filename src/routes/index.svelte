@@ -52,6 +52,12 @@
     target="_blank"
     rel="noopener"
     href="https://api.spacex.land/graphql">SpaceX API</a
+  >. View source on
+  <a
+    class="link"
+    target="_blank"
+    rel="noopener"
+    href="https://github.com/leerob/sveltekit-graphql">GitHub</a
   >.
 </p>
 <ul>

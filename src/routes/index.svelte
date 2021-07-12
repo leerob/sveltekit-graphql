@@ -7,14 +7,14 @@
       },
       body: JSON.stringify({
         query: `{
-                launchesPast(limit: 10) {
-                    mission_name
-                    launch_date_local
-                    links {
-                        video_link
-                    }
+            launchesPast(limit: 10) {
+                mission_name
+                launch_date_local
+                links {
+                    video_link
                 }
-            }`
+            }
+        }`
       })
     });
 

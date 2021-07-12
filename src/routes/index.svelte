@@ -40,18 +40,29 @@
 
 <h1>SpaceX Launches</h1>
 <p>
-  This is an example <a class="link" target="_blank" href="https://svelte.dev"
-    >SvelteKit</a
+  This is an example <a
+    class="link"
+    target="_blank"
+    rel="noopener"
+    href="https://svelte.dev">SvelteKit</a
   >
   application fetching GraphQL data from the public
-  <a class="link" target="_blank" href="https://api.spacex.land/graphql"
-    >SpaceX API</a
+  <a
+    class="link"
+    target="_blank"
+    rel="noopener"
+    href="https://api.spacex.land/graphql">SpaceX API</a
   >.
 </p>
 <ul>
   {#each launches as launch}
     <li>
-      <a class="card-link" target="_blank" href={launch.links.video_link}>
+      <a
+        class="card-link"
+        target="_blank"
+        rel="noopener"
+        href={launch.links.video_link}
+      >
         <h2>{launch.mission_name}</h2>
         <p>{new Date(launch.launch_date_local).toLocaleString()}</p>
       </a>
@@ -60,11 +71,16 @@
 </ul>
 <footer>
   <p>
-    Created with <a class="link" target="_blank" href="https://svelte.dev"
-      >SvelteKit</a
+    Created with <a
+      class="link"
+      target="_blank"
+      rel="noopener"
+      href="https://svelte.dev">SvelteKit</a
     >
     and deployed with
-    <a class="link" target="_blank" href="https://vercel.com">▲ Vercel</a>.
+    <a class="link" target="_blank" rel="noopener" href="https://vercel.com"
+      >▲ Vercel</a
+    >.
   </p>
 </footer>
 

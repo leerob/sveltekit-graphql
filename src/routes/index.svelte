@@ -129,9 +129,9 @@
   }
   .link {
     transition: 0.15s text-decoration ease-in-out;
+    color: #0761d1;
   }
   .link:hover {
     text-decoration: underline;
-    color: #0761d1;
   }
 </style>

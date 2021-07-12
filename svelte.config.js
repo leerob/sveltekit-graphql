@@ -1,10 +1,8 @@
 import vercel from '@sveltejs/adapter-vercel';
 
-const config = {
+export default {
   kit: {
     adapter: vercel(),
     target: '#svelte',
   },
 };
-
-export default config;
